@@ -8,7 +8,6 @@ import (
 )
 
 func (b *MyBot) GetAssignedIssues(token string, username string) string {
-	// Ваш код для получения задач
 	baseURL := "https://test-jira.gorizont-vs.ru"
 	client := &http.Client{}
 
