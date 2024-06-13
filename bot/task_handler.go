@@ -8,7 +8,7 @@ import (
 )
 
 func (b *MyBot) GetAssignedIssues(token string, username string) string {
-	baseURL := "https://test-jira.gorizont-vs.ru"
+	baseURL := "https://test-jira.ru"
 	client := &http.Client{}
 
 	apiEndpoint := fmt.Sprintf("/rest/api/2/search?jql=assignee=%s", username)
